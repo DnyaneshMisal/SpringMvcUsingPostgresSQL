@@ -29,7 +29,7 @@ public class StudentController {
 	@RequestMapping("/hello.html")
 	public ModelAndView HelloStudent() {
 
-		modelAndView.addObject("welcomeMessage", "Welcome to Student Registration!!");
+		modelAndView.addObject("welcomeMessage", "Welcome to Student Registration process!!");
 		modelAndView.setViewName("hello");
 		return modelAndView;
 	}
